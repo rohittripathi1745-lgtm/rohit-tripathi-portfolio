@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowDown, ArrowUpRight, Download, Sparkles, Code2, Terminal } from 'lucide-react';
+import { ArrowDown, ArrowUpRight, Download, Sparkles } from 'lucide-react';
 import { PROFILE } from '../../data/profile';
 import { StatusBadge } from '../ui/StatusBadge';
 import { MagneticButton } from '../ui/MagneticButton';
