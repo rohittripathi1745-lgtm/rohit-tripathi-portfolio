@@ -55,7 +55,7 @@ export function App() {
         <CustomCursor />
 
         {/* Navigation Bar */}
-        <Navbar onOpenHud={() => setIsHudOpen(true)} />
+        <Navbar />
 
         {/* Main Content Sections */}
         <main>
