@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Terminal, MapPin, GraduationCap, Cpu, CheckCircle } from 'lucide-react';
+import {  MapPin, GraduationCap, Cpu, CheckCircle } from 'lucide-react';
 import { SectionHeading } from '../ui/SectionHeading';
 import { PROFILE } from '../../data/profile';
 

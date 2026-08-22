@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ArrowUpRight, CheckCircle2, Terminal, Sparkles, Database, FileSpreadsheet, Server, Eye } from 'lucide-react';
+import { ArrowUpRight, CheckCircle2, Terminal, Database, Server, Eye } from 'lucide-react';
 import { SectionHeading } from '../ui/SectionHeading';
 import { PROJECTS } from '../../data/projects';
 import { Project } from '../../types';

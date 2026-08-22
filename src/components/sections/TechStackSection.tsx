@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Sparkles, CheckCircle2, Code2, Database, Wrench, Briefcase, Globe } from 'lucide-react';
+import { CheckCircle2, Code2, Database, Wrench, Briefcase, Globe } from 'lucide-react';
 import { SectionHeading } from '../ui/SectionHeading';
 import { TECH_STACK } from '../../data/profile';
 import { ProficiencyLevel } from '../../types';
