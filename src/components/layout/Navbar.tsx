@@ -65,11 +65,9 @@ export const Navbar = ({ onOpenHud }: { onOpenHud?: () => void }) => {
           }}
         >
           <span className="font-display font-black text-xl sm:text-2xl tracking-tighter text-white transition-colors group-hover:text-accent-cyan">
-            ROHIT<span className="text-accent-cyan">.</span>TRIPATHI
+            ROHIT<span className="text-accent-cyan"> </span>TRIPATHI
           </span>
-          <span className="hidden sm:inline-block px-1.5 py-0.5 text-[10px] font-mono uppercase tracking-wider bg-white/5 border border-white/10 rounded text-slate-400">
-            DEV
-          </span>
+          
         </a>
 
         {/* Desktop Navigation Links */}
