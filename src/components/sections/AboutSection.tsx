@@ -11,7 +11,7 @@ export const AboutSection = () => {
           number="01"
           tagline="PROFILE & BACKGROUND"
           title="ABOUT ME"
-          description="A blend of Computer Science fundamentals, full-stack web engineering, and practical business process automation."
+          description="A blend of Computer Science fundamentals, full-stack web development, and practical business process automation."
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
@@ -41,16 +41,16 @@ export const AboutSection = () => {
               <div className="p-4 rounded-xl bg-white/[0.03] border border-white/[0.06] flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-accent-cyan shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-mono text-sm font-semibold text-white">Pragmatic Engineering</h4>
-                  <p className="text-xs text-slate-400 mt-1">Focusing on code that solves real operational bottlenecks.</p>
+                  <h4 className="font-mono text-sm font-semibold text-white">LMS & Web Development</h4>
+                  <p className="text-xs text-slate-400 mt-1">Building and maintaining real-world LMS and web applications with a focus on reliable workflows, user experience, and performance.</p>
                 </div>
               </div>
 
               <div className="p-4 rounded-xl bg-white/[0.03] border border-white/[0.06] flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-accent-sky shrink-0 mt-0.5" />
                 <div>
-                  <h4 className="font-mono text-sm font-semibold text-white">Full-Spectrum Agility</h4>
-                  <p className="text-xs text-slate-400 mt-1">Comfortable across frontend, backend, databases, and low-code platforms.</p>
+                  <h4 className="font-mono text-sm font-semibold text-white">Digital Automation & Support</h4>
+                  <p className="text-xs text-slate-400 mt-1">Turning manual processes into efficient digital workflows using Zoho, automation, integrations, and practical problem-solving.</p>
                 </div>
               </div>
             </div>
@@ -71,12 +71,10 @@ export const AboutSection = () => {
               {/* Developer Identity Header */}
               <div className="flex items-center justify-between pb-6 border-b border-white/10">
                 <div className="flex items-center gap-2 font-mono text-xs text-accent-cyan">
-                  <Terminal className="w-4 h-4" />
-                  <span>IDENTITY_CARD.SYS</span>
+                  
+                  <span>ABOUT ME</span>
                 </div>
-                <span className="px-2 py-0.5 text-[10px] font-mono rounded bg-accent-cyan/10 text-accent-cyan border border-accent-cyan/30">
-                  VERIFIED STUDENT
-                </span>
+                
               </div>
 
               {/* Profile Details List */}

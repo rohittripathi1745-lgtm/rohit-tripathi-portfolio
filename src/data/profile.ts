@@ -57,17 +57,17 @@ export const QUICK_STATS: StatItem[] = [
     numericValue: 3,
     suffix: '+ Mos',
     label: 'Internship Experience',
-    sublabel: 'Frontend Development',
-    description: 'Practical project-based engineering with React and modern web ecosystems.'
+    sublabel: 'Website Development',
+    description: 'Practical project-based internship with modern Web Development Technologies.'
   },
   {
     id: 'systems',
     value: '5+',
     numericValue: 5,
-    suffix: '+',
-    label: 'Systems & Workflows',
-    sublabel: 'LMS & Business Apps',
-    description: 'Built and maintained enterprise LMS, ticket systems, and automation flows.'
+    suffix: '+ Mos',
+    label: 'Work Experience',
+    sublabel: 'IT Executive and Website Maintenance',
+    description: 'Maintaining LMS Website and developing applications to automate workflow.'
   }
 ];
 
@@ -78,51 +78,27 @@ export const CAPABILITIES: Capability[] = [
     title: 'Web Development',
     tagline: 'Modern, responsive, full-stack applications',
     description: 'Build responsive and interactive web applications using modern frontend and backend technologies with clean architecture and maintainable code.',
-    technologies: ['React', 'JavaScript', 'HTML5', 'CSS3/SCSS', 'Bootstrap', 'Node.js'],
+    technologies: ['React', 'JavaScript', 'HTML', 'CSS', 'Bootstrap', 'Node.js', 'Java',],
     icon: 'Globe'
   },
-  {
-    id: 'digital-systems',
-    number: '02',
-    title: 'Digital Systems',
-    tagline: 'Internal tools & business infrastructure',
-    description: 'Work with business applications, internal systems, and digital workflows to eliminate operational friction and centralize records.',
-    technologies: ['Zoho Creator', 'Zoho CRM', 'Deluge Scripting', 'WorkDrive'],
-    icon: 'Layers'
-  },
-  {
-    id: 'automation',
-    number: '03',
-    title: 'Automation Solutions',
-    tagline: 'Eliminating repetitive manual effort',
-    description: 'Identify repetitive manual processes and engineer technology-based scripts and triggers to improve accuracy, turnaround time, and efficiency.',
-    technologies: ['Excel VBA', 'CSV Pipelines', 'API Triggers', 'Deluge Workflows'],
-    icon: 'Zap'
-  },
+  
+ 
   {
     id: 'lms-development',
-    number: '04',
+    number: '02',
     title: 'LMS Development',
     tagline: 'Learning Management System workflows',
     description: 'Work with Learning Management Systems, assessment engines, certificates, automated surveys, candidate reassignment logic, and course progression.',
     technologies: ['Laravel', 'PHP', 'MySQL', 'JavaScript', 'REST APIs'],
     icon: 'GraduationCap'
   },
-  {
-    id: 'technical-support',
-    number: '05',
-    title: 'Technical Support & Maintenance',
-    tagline: 'System stability & proactive debugging',
-    description: 'Troubleshoot software, live websites, database inconsistencies, hosting environments, and digital systems to ensure zero downtime.',
-    technologies: ['Hostinger', 'XAMPP', 'MySQL Admin', 'Live Debugging', 'Git'],
-    icon: 'Wrench'
-  },
+  
   {
     id: 'business-applications',
-    number: '06',
+    number: '03',
     title: 'Business Applications',
     tagline: 'CRM customization & tailored workflows',
-    description: 'Configure and extend platforms such as Zoho CRM and Zoho Creator to build custom fields, department routing, role-based views, and reporting dashboards.',
+    description: 'Configure and extend platforms such as Zoho CRM and Zoho Creator to build custom applications, forms, department routing, role-based views, and reporting dashboards.',
     technologies: ['Zoho CRM', 'Zoho Creator', 'Deluge', 'Dashboard Reporting'],
     icon: 'Briefcase'
   }
@@ -130,28 +106,38 @@ export const CAPABILITIES: Capability[] = [
 
 export const JOURNEY_TIMELINE: TimelineItem[] = [
   {
-    period: 'CURRENT FOCUS',
-    title: 'Modern Web, LMS & Business Systems',
-    subtitle: 'Active Engineering & Deepening Expertise',
-    description: 'Expanding capabilities across modern web platforms, full-stack architectures, custom LMS modules, automation pipelines, and cloud deployment tools.',
-    highlights: ['Modern React & Advanced JS', 'Full-stack PHP/Laravel & Node.js', 'Workflow Automation', 'Cloud & Hosting Management'],
-    badge: 'Focus',
-    type: 'focus'
-  },
+  period: 'CURRENT — 4+ MONTHS',
+  title: 'IT Executive — Website Maintenance & Application Development',
+  subtitle: 'Charismight Consultancy Pvt. Ltd.',
+  description: 'Working full-time on LMS development and website maintenance, including new feature development, bug fixing, system troubleshooting, and ongoing platform improvements. Also developing custom internal business applications and automations using Zoho Creator, Deluge, and Zoho CRM.',
+  highlights: [
+    'LMS Development & Bug Fixing — PHP, Laravel, Blade & MySQL',
+    'New Feature Development & Website Maintenance',
+    'Custom Internal Applications — Zoho Creator & Deluge',
+    'Zoho CRM Management & Workflow Automation'
+  ],
+  badge: 'Current Role',
+  type: 'focus'
+},
   {
-    period: 'PROFESSIONAL EXPERIENCE',
-    title: 'Digital Technology & Technical Support',
-    subtitle: 'Website Maintenance & Business Systems',
-    description: 'Responsible for live website maintenance, software troubleshooting, LMS platform support, Zoho ecosystem configuration, database queries, and assisting internal teams.',
-    highlights: ['LMS Maintenance & Assessment Logic', 'Zoho CRM & Creator Workflows', 'Database & Hosting Debugging', 'System Stability Support'],
-    badge: 'Experience',
-    type: 'experience'
-  },
+  period: '1 MONTH INTERNSHIP',
+  title: 'Data Analyst Intern',
+  subtitle: 'AGNext Technologies — Kharghar, Navi Mumbai',
+  description: 'Gained hands-on experience in data analysis, data cleaning, and working with structured datasets to support data-driven business insights and reporting.',
+  highlights: [
+    'Data Cleaning & Preprocessing',
+    'Data Analysis & Interpretation',
+    'Excel-Based Data Handling & Reporting',
+    'Data Visualization & Insight Generation'
+  ],
+  badge: 'Internship',
+  type: 'experience'
+},
   {
-    period: 'INTERNSHIP',
+    period: '1 MONTH INTERNSHIP',
     title: 'Frontend Development Internship',
-    subtitle: 'React / Web Development',
-    description: 'Hands-on practical development building interactive user interfaces, component-driven layouts, and responsive web experiences with React, JavaScript, HTML5, and CSS3.',
+    subtitle: 'React Web Develope - Code Alpha Technologies',
+    description: 'Hands-on practical development building interactive user interfaces, component-driven layouts, and responsive web experiences with React, JavaScript, HTML5, and CSS.',
     highlights: ['Component-based UI Architecture', 'State Management & Lifecycle', 'Responsive Design Across Viewports', 'Details available on request'],
     badge: 'Internship',
     type: 'internship'
@@ -160,7 +146,7 @@ export const JOURNEY_TIMELINE: TimelineItem[] = [
     period: 'EDUCATION',
     title: 'B.Sc. Computer Science',
     subtitle: 'Pillai College of Arts, Commerce and Science, New Panvel',
-    description: 'Rigorous computer science curriculum covering data structures, database management systems, web technologies, software engineering methodologies, and algorithms.',
+    description: 'Rigorous computer science curriculum covering data structures, database management systems, web technologies, software development methodologies, and algorithms.',
     highlights: ['9.21 Average CGPA', 'New Panvel, Maharashtra', 'Active student & system builder', 'Solid theoretical & practical base'],
     badge: 'Education',
     type: 'education'
@@ -173,26 +159,24 @@ export const TECH_STACK: TechItem[] = [
   { name: 'JavaScript', category: 'frontend', level: 'Proficient', description: 'Core ES6+ JavaScript, DOM manipulation, asynchronous programming, and event handling.', isFavorite: true },
   { name: 'HTML5', category: 'frontend', level: 'Proficient', description: 'Semantic structure, accessible markup, and modern web document standards.' },
   { name: 'CSS3', category: 'frontend', level: 'Proficient', description: 'Modern layout systems (Flexbox, Grid), animations, transitions, and responsive styling.' },
-  { name: 'SCSS', category: 'frontend', level: 'Comfortable', description: 'Modular stylesheets with nested rules, mixins, and design tokens.' },
   { name: 'Bootstrap', category: 'frontend', level: 'Proficient', description: 'Rapid responsive prototyping and standard grid systems.' },
 
   // BACKEND
   { name: 'PHP', category: 'backend', level: 'Comfortable', description: 'Server-side application logic, database querying, and API endpoints.', isFavorite: true },
   { name: 'Laravel', category: 'backend', level: 'Working Knowledge', description: 'PHP MVC web framework for structured LMS and business application features.' },
   { name: 'Node.js', category: 'backend', level: 'Working Knowledge', description: 'JavaScript runtime environment for lightweight backend services and scripting.' },
-  { name: 'Express.js', category: 'backend', level: 'Working Knowledge', description: 'Minimalist web framework for building RESTful APIs and middleware pipelines.' },
+  { name: 'Java', category: 'backend', level: 'Working Knowledge', description: 'Object-oriented programming language for building robust applications and backend systems.' },
 
   // DATABASE
   { name: 'MySQL', category: 'database', level: 'Comfortable', description: 'Relational database design, table relationships, indexing, and SQL queries.', isFavorite: true },
   { name: 'MongoDB', category: 'database', level: 'Working Knowledge', description: 'NoSQL document database for flexible JSON-like schema storage.' },
-  { name: 'Oracle', category: 'database', level: 'Working Knowledge', description: 'Enterprise relational database management and structured query handling.' },
 
   // TOOLS & PLATFORMS
   { name: 'Git', category: 'tools', level: 'Comfortable', description: 'Version control, branch management, collaborative workflows, and code hygiene.' },
   { name: 'GitHub', category: 'tools', level: 'Comfortable', description: 'Repository hosting, project tracking, issue triage, and open collaboration.' },
   { name: 'VS Code', category: 'tools', level: 'Proficient', description: 'Primary IDE customized for rapid full-stack development and debugging.' },
   { name: 'XAMPP', category: 'tools', level: 'Comfortable', description: 'Local server environment for PHP, Apache, and MySQL development and testing.' },
-  { name: 'Hostinger', category: 'tools', level: 'Experience', description: 'Live deployment, domain configuration, DNS records, and hosting administration.' },
+  { name: 'Hostinger', category: 'tools', level: 'Learning', description: 'Live deployment, domain configuration, DNS records, and hosting administration.' },
   { name: 'Docker', category: 'tools', level: 'Learning', description: 'Containerization basics for predictable development and deployment environments.' },
 
   // BUSINESS & DIGITAL

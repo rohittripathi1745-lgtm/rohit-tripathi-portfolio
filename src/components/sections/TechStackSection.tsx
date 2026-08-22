@@ -7,7 +7,6 @@ import { ProficiencyLevel } from '../../types';
 import { useCursor } from '../../hooks/useCursor';
 
 const CATEGORIES = [
-  { id: 'all', label: 'ALL TOOLS', icon: Sparkles },
   { id: 'frontend', label: 'FRONTEND', icon: Globe },
   { id: 'backend', label: 'BACKEND', icon: Code2 },
   { id: 'database', label: 'DATABASE', icon: Database },
@@ -24,7 +23,7 @@ const levelColorMap: Record<ProficiencyLevel, string> = {
 };
 
 export const TechStackSection = () => {
-  const [activeCategory, setActiveCategory] = useState('all');
+  const [activeCategory, setActiveCategory] = useState('frontend');
   const [selectedTech, setSelectedTech] = useState<string | null>(null);
   const { setCursorVariant, setCursorText } = useCursor();
 

@@ -82,11 +82,11 @@ export const EducationSection = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-slate-300">
                   {[
                     'Data Structures & Algorithms',
-                    'Database Management Systems (MySQL / Oracle)',
+                    'Database Management Systems (MySQL / MongoDB)',
                     'Web Technologies & Client-Server Systems',
                     'Object-Oriented Programming & Software Design',
                     'Operating Systems & Networking Basics',
-                    'Software Engineering Principles & Lifecycle',
+                    'Software Development Principles & Lifecycle',
                   ].map((topic, idx) => (
                     <div key={idx} className="flex items-center gap-2 p-2 rounded bg-white/[0.02] border border-white/[0.04]">
                       <CheckCircle className="w-3.5 h-3.5 text-accent-cyan shrink-0" />

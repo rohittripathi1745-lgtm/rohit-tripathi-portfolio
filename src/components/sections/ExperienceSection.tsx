@@ -44,7 +44,7 @@ export const ExperienceSection = () => {
                   </div>
                   <div>
                     <span className="text-[10px] font-mono text-emerald-400 font-bold uppercase tracking-wider block">
-                      ● CURRENT ENGAGEMENT
+                      ● CURRENT ENGAGEMENT - Charismight Consultancy Pvt ltd.
                     </span>
                     <h3 className="font-display text-xl font-bold text-white">
                       Tech Support & Website Maintenance
@@ -91,7 +91,7 @@ export const ExperienceSection = () => {
                 <ShieldCheck className="w-4 h-4 text-emerald-400" />
                 Continuous Live Support
               </span>
-              <span className="text-slate-400">Panvel, Navi Mumbai</span>
+              <span className="text-slate-400">Kharghar, Navi Mumbai</span>
             </div>
           </motion.div>
 
@@ -119,7 +119,7 @@ export const ExperienceSection = () => {
                   </div>
                   <div>
                     <span className="text-[10px] font-mono text-indigo-400 font-bold uppercase tracking-wider block">
-                      PRACTICAL INDUSTRY TRAINING
+                      Code Alpha Technologies
                     </span>
                     <h3 className="font-display text-xl font-bold text-white">
                       Frontend Development Internship
@@ -127,7 +127,7 @@ export const ExperienceSection = () => {
                   </div>
                 </div>
                 <span className="px-2.5 py-1 text-[11px] font-mono rounded bg-white/[0.05] border border-white/[0.08] text-slate-300">
-                  3+ Months
+                  1+ Months
                 </span>
               </div>
 
@@ -166,9 +166,9 @@ export const ExperienceSection = () => {
             <div className="pt-6 mt-6 border-t border-white/10 flex items-center justify-between text-xs font-mono text-slate-400">
               <span className="flex items-center gap-1.5">
                 <Briefcase className="w-4 h-4 text-accent-sky" />
-                Frontend Engineering
+                Frontend Developer
               </span>
-              <span className="text-slate-400 italic">Details available on request</span>
+              <span className="text-slate-400 italic">Remote Internship</span>
             </div>
           </motion.div>
         </div>

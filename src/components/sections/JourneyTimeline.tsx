@@ -19,7 +19,7 @@ export const JourneyTimeline = () => {
       <div className="max-w-7xl mx-auto">
         <SectionHeading
           number="07"
-          tagline="ROADMAP & PROGRESSION"
+          tagline="JOURNEY ROADMAP & PROGRESSION"
           title="MY JOURNEY"
           description="A chronological perspective mapping academic foundations to industrial development and current technical explorations."
         />

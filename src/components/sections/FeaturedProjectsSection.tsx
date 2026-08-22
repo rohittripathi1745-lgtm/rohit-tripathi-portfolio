@@ -21,7 +21,7 @@ export const FeaturedProjectsSection = ({ onSelectProject }: { onSelectProject: 
             <div className="flex items-center justify-between pb-4 border-b border-white/10">
               <div className="flex items-center gap-2 text-sky-400 font-bold">
                 <Server className="w-4 h-4" />
-                <span>CHARISMIGHT // LMS_ENGINE</span>
+                <span>CHARISMIGHT LMS</span>
               </div>
               <span className="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-[10px]">
                 PRODUCTION SYSTEM
@@ -66,7 +66,7 @@ export const FeaturedProjectsSection = ({ onSelectProject }: { onSelectProject: 
             <div className="flex items-center justify-between pb-4 border-b border-white/10">
               <div className="flex items-center gap-2 text-indigo-400 font-bold">
                 <Terminal className="w-4 h-4" />
-                <span>ZOHO_CREATOR // ITSM_TICKETS</span>
+                <span>ZOHO_CREATOR - Internal Ticketing System</span>
               </div>
               <span className="px-2 py-0.5 rounded bg-indigo-500/15 text-indigo-300 text-[10px]">
                 DELUGE AUTOMATION
@@ -145,91 +145,7 @@ export const FeaturedProjectsSection = ({ onSelectProject }: { onSelectProject: 
           </div>
         );
 
-      case 'attendance':
-        return (
-          <div className="w-full h-full bg-[#120f0a] p-6 rounded-xl border border-amber-500/20 flex flex-col justify-between font-mono text-xs text-slate-300">
-            <div className="flex items-center justify-between pb-4 border-b border-white/10">
-              <div className="flex items-center gap-2 text-amber-400 font-bold">
-                <FileSpreadsheet className="w-4 h-4" />
-                <span>BIOMETRIC_PUNCH_PARSER.VBA</span>
-              </div>
-              <span className="px-2 py-0.5 rounded bg-amber-500/15 text-amber-300 text-[10px]">
-                CSV & MACRO ENGINE
-              </span>
-            </div>
-
-            <div className="space-y-3 my-auto py-4">
-              <div className="p-3.5 rounded-lg bg-white/[0.03] border border-white/[0.06] space-y-2">
-                <div className="flex justify-between text-[11px]">
-                  <span className="text-slate-400">Raw Sensor Log Ingestion</span>
-                  <span className="text-emerald-400 font-bold">3,500+ Rows Processed</span>
-                </div>
-                <div className="grid grid-cols-3 gap-2 text-center text-[10px] pt-1">
-                  <div className="p-2 rounded bg-black/40 border border-white/5">
-                    <span className="text-slate-500 block">First-In</span>
-                    <span className="text-white font-bold">09:12 AM</span>
-                  </div>
-                  <div className="p-2 rounded bg-black/40 border border-white/5">
-                    <span className="text-slate-500 block">Last-Out</span>
-                    <span className="text-white font-bold">06:45 PM</span>
-                  </div>
-                  <div className="p-2 rounded bg-black/40 border border-white/5">
-                    <span className="text-slate-500 block">Total Hours</span>
-                    <span className="text-amber-400 font-bold">9.55 Hrs</span>
-                  </div>
-                </div>
-              </div>
-
-              <div className="p-3 rounded-lg bg-amber-500/5 border border-amber-500/20 flex items-center justify-between text-[11px]">
-                <span className="text-slate-300">HR Executive Monthly Sheet</span>
-                <span className="text-amber-400 font-bold">Auto-Calculated</span>
-              </div>
-            </div>
-
-            <div className="pt-3 border-t border-white/10 flex items-center justify-between text-[10px] text-slate-500">
-              <span>Weekend & Overtime Rules</span>
-              <span>Zero Calculation Mismatch</span>
-            </div>
-          </div>
-        );
-
-      case 'portfolio':
-        return (
-          <div className="w-full h-full bg-[#080b12] p-6 rounded-xl border border-cyan-500/20 flex flex-col justify-between font-mono text-xs text-slate-300">
-            <div className="flex items-center justify-between pb-4 border-b border-white/10">
-              <div className="flex items-center gap-2 text-accent-cyan font-bold">
-                <Sparkles className="w-4 h-4" />
-                <span>ROHIT.TRIPATHI // SPA_CLIENT</span>
-              </div>
-              <span className="px-2 py-0.5 rounded bg-cyan-500/15 text-accent-cyan text-[10px]">
-                REACT + TAILWIND
-              </span>
-            </div>
-
-            <div className="space-y-3 my-auto py-4">
-              <div className="p-4 rounded-xl bg-white/[0.03] border border-white/[0.06] space-y-2 text-center">
-                <p className="font-display font-black text-xl text-white">ROHIT TRIPATHI</p>
-                <p className="text-xs text-slate-400">Cinematic Interactive Personal Showcase</p>
-                <div className="flex justify-center gap-2 pt-2">
-                  <span className="px-2 py-0.5 rounded bg-accent-cyan/10 text-accent-cyan border border-accent-cyan/30 text-[10px]">
-                    Framer Motion
-                  </span>
-                  <span className="px-2 py-0.5 rounded bg-white/10 text-white text-[10px]">
-                    TypeScript
-                  </span>
-                  <span className="px-2 py-0.5 rounded bg-white/10 text-white text-[10px]">
-                    Zero Fake Data
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <div className="pt-3 border-t border-white/10 flex items-center justify-between text-[10px] text-slate-500">
-              <span>Active Port: 5173</span>
-              <span className="text-emerald-400">● 60 FPS Smooth Lerp</span>
-            </div>
-          </div>
-        );
+      
 
       default:
         return null;
@@ -243,7 +159,7 @@ export const FeaturedProjectsSection = ({ onSelectProject }: { onSelectProject: 
           number="04"
           tagline="PORTFOLIO HIGHLIGHTS"
           title="SELECTED WORK"
-          description="Real software projects spanning LMS architectures, internal ITSM applications, enterprise workflow automation, and frontend web applications."
+          description="Real software projects spanning LMS architectures, internal ITMS applications, enterprise workflow automation, and frontend web applications."
         />
 
         {/* Desktop Split View: Left List, Right Interactive Live Preview */}
