@@ -25,9 +25,9 @@ export const PROFILE: ProfileData = {
   isAvailable: true,
   socials: {
     // Editable placeholders - update with your actual handles
-    email: 'rohit.tripathi.dev@gmail.com', // Placeholder - update as needed
-    github: 'https://github.com/rohittripathi-dev', // Placeholder
-    linkedin: 'https://linkedin.com/in/rohittripathi-dev', // Placeholder
+    email: 'rohittripathi1745@gmail.com', // Placeholder - update as needed
+    github: 'https://github.com/rohittripathi1745-lgtm', // Placeholder
+    linkedin: 'https://www.linkedin.com/in/rohit-tripathi-2744482b4', // Placeholder
     location: 'Panvel, Navi Mumbai, India'
   },
   resumeUrl: '/resume.pdf',

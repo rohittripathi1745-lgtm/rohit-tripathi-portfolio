@@ -33,7 +33,7 @@ export const HeroSection = ({ onResumeClick }: { onResumeClick: () => void }) =>
             >
               <StatusBadge />
               <span className="hidden sm:inline-flex items-center gap-1.5 text-xs font-mono text-slate-400">
-                <Code2 className="w-3.5 h-3.5 text-accent-cyan" />
+                
                 Panvel, Navi Mumbai
               </span>
             </motion.div>
@@ -162,10 +162,7 @@ export const HeroSection = ({ onResumeClick }: { onResumeClick: () => void }) =>
                   <div className="absolute inset-0 bg-gradient-to-t from-[#070709] via-transparent to-transparent opacity-80" />
 
                   {/* Top HUD Tag on photo */}
-                  <div className="absolute top-4 left-4 px-3 py-1 rounded-full bg-black/60 backdrop-blur-md border border-white/10 flex items-center gap-2 text-[10px] font-mono text-slate-300">
-                    <Terminal className="w-3 h-3 text-accent-cyan" />
-                    <span>ROHIT_TRIPATHI // B.Sc. CS</span>
-                  </div>
+                  
 
                   {/* Bottom Info Bar on photo */}
                   <div className="absolute bottom-4 inset-x-4 p-4 rounded-xl bg-black/70 backdrop-blur-md border border-white/10 flex items-center justify-between">
@@ -187,7 +184,7 @@ export const HeroSection = ({ onResumeClick }: { onResumeClick: () => void }) =>
 
                 {/* Subtle bottom ticker */}
                 <div className="px-4 py-2.5 bg-[#0a0c12] border-t border-white/[0.06] flex items-center justify-between text-[10px] font-mono text-slate-400">
-                  <span>SYSTEM_ID: RT-2026-DEV</span>
+                  <span></span>
                   <span className="text-emerald-400 font-semibold">● ACTIVE</span>
                 </div>
               </div>

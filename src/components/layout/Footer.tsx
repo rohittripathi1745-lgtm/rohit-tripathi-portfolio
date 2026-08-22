@@ -21,7 +21,7 @@ export const Footer = () => {
           <div className="md:col-span-6 space-y-4">
             <div className="space-y-1">
               <span className="font-display font-black text-2xl sm:text-3xl tracking-tight text-white">
-                ROHIT<span className="text-accent-cyan">.</span>TRIPATHI
+                ROHIT<span className="text-accent-cyan"> </span>TRIPATHI
               </span>
               <p className="text-xs font-mono text-accent-sky/80 uppercase tracking-widest">
                 BUILDING DIGITAL EXPERIENCES WITH CODE.

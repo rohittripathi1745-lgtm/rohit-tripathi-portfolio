@@ -182,7 +182,7 @@ export const ContactSection = () => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="e.g. Alex Morgan"
+                      placeholder="e.g. Rahul Tripathi"
                       required
                       className="w-full px-4 py-3 rounded-lg bg-white/[0.04] border border-white/10 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-accent-cyan focus:ring-1 focus:ring-accent-cyan transition-colors"
                     />
@@ -198,7 +198,7 @@ export const ContactSection = () => {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="e.g. alex@example.com"
+                      placeholder="e.g. rahul@gmail.com"
                       required
                       className="w-full px-4 py-3 rounded-lg bg-white/[0.04] border border-white/10 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-accent-cyan focus:ring-1 focus:ring-accent-cyan transition-colors"
                     />
@@ -215,7 +215,7 @@ export const ContactSection = () => {
                     name="subject"
                     value={formData.subject}
                     onChange={handleChange}
-                    placeholder="e.g. Web App Development / LMS Workflow Inquiry"
+                    placeholder="e.g. Web App Development / Work Inquiry"
                     className="w-full px-4 py-3 rounded-lg bg-white/[0.04] border border-white/10 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-accent-cyan focus:ring-1 focus:ring-accent-cyan transition-colors"
                   />
                 </div>
