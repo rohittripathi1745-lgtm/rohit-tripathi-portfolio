@@ -5,7 +5,7 @@ import { PROFILE } from '../../data/profile';
 import { StatusBadge } from '../ui/StatusBadge';
 import { MagneticButton } from '../ui/MagneticButton';
 import { useCursor } from '../../hooks/useCursor';
-import rohitPhoto from '../../assets/rohit-hero.jpg';
+import rohitPhoto from '../../assets/rohit-hero.jpeg';
 
 export const HeroSection = ({ onResumeClick }: { onResumeClick: () => void }) => {
   const { setCursorVariant, setCursorText } = useCursor();
@@ -152,7 +152,7 @@ export const HeroSection = ({ onResumeClick }: { onResumeClick: () => void }) =>
                 {/* Visual Image / Fallback Container */}
                 <div className="relative aspect-[4/5] w-full overflow-hidden group">
                   <img
-                    src={imgError ? '/rohit-hero.jpg' : rohitPhoto}
+                    src={imgError ? '/rohit-hero.jpeg' : rohitPhoto}
                     onError={() => setImgError(true)}
                     alt="Rohit Tripathi - Computer Science Developer"
                     className="w-full h-full object-cover object-center filter brightness-95 contrast-105 transition-transform duration-700 group-hover:scale-105"

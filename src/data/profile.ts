@@ -193,12 +193,9 @@ export const TECH_STACK: TechItem[] = [
 ];
 
 export const CURRENTLY_EXPLORING = [
-  { name: 'Modern React Architecture', description: 'Server components, state management patterns, and performant hook structures.' },
-  { name: 'Advanced JavaScript (ESNext)', description: 'Asynchronous concurrency, closures, memory optimization, and modern runtime APIs.' },
   { name: 'Full-Stack Backend Systems', description: 'Scalable API design, authentication flows, and relational schema optimization.' },
-  { name: 'Systematic Workflow Automation', description: 'Multi-service automation, webhook listeners, and background task pipelines.' },
-  { name: 'AI-Assisted Engineering', description: 'Leveraging AI toolchains to accelerate development speed, testing, and code quality.' },
-  { name: 'Modern UI/UX & Motion Design', description: 'Micro-interactions, accessible UI components, and fluid layout physics.' },
-  { name: 'Cloud & Production Deployment', description: 'CI/CD basics, containerization, DNS setup, and production monitoring.' },
-  { name: 'Business Application Architecture', description: 'Enterprise CRM architectures, role-based security, and reporting suites.' }
+  { name: 'Cloud & Production Deployment', description: 'CI/CD pipelines, containerization, DNS setup, and production monitoring.' },
+  { name: 'MySQL Database', description: 'Relational schema design, query optimization, and data modeling for real-world applications.' },
+  { name: 'AI Agents & Automation', description: 'Building autonomous workflows, prompt-driven agents, and intelligent task pipelines.' },
+  { name: 'Git & GitHub Advanced Features', description: 'Branching strategies, rebasing, GitHub Actions, and collaborative version control workflows.' }
 ];
