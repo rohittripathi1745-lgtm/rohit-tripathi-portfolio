@@ -20,11 +20,20 @@ import { ProjectModal } from './components/ui/ProjectModal';
 import { ResumeModal } from './components/ui/ResumeModal';
 import { DeveloperHUD } from './components/ui/DeveloperHUD';
 import { Project } from './types';
+import { PROFILE } from './data/profile';
 
 export function App() {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   const [isResumeModalOpen, setIsResumeModalOpen] = useState(false);
   const [isHudOpen, setIsHudOpen] = useState(false);
+
+    const handleResumeClick = () => {
+    if (PROFILE.hasResumePdf) {
+      window.open(PROFILE.resumeUrl, '_blank');
+    } else {
+      setIsResumeModalOpen(true);
+    }
+  };
 
   useEffect(() => {
     // Add custom cursor styling class to body on desktop
@@ -59,7 +68,7 @@ export function App() {
 
         {/* Main Content Sections */}
         <main>
-          <HeroSection onResumeClick={() => setIsResumeModalOpen(true)} />
+                    <HeroSection onResumeClick={handleResumeClick} />
           <StatsSection />
           <AboutSection />
           <CapabilitiesSection />

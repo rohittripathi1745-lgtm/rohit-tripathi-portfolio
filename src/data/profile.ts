@@ -31,7 +31,7 @@ export const PROFILE: ProfileData = {
     location: 'Panvel, Navi Mumbai, India'
   },
   resumeUrl: '/resume.pdf',
-  hasResumePdf: false // Set to true once public/resume.pdf is added
+  hasResumePdf: true // Set to true once public/resume.pdf is added
 };
 
 export const QUICK_STATS: StatItem[] = [
